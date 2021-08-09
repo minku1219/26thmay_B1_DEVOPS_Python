@@ -6,7 +6,6 @@
 import subprocess
 while(True):
     m=1;
-    print("Press ctrl+c to Exit from Code")
     n=input("Enter the Command: $ ")
     s=subprocess.getstatusoutput(n)
     if (n.isdigit()==True):
